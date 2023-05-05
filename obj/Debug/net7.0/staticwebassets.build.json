@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wCzJtcl0wkZe3hIMT94rENs5w099tnX+mjrunaQ8v40=",
+  "Source": "safezonesoftware-restapi",
+  "BasePath": "_content/safezonesoftware-restapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
