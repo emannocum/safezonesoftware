@@ -1,5 +1,4 @@
 # safezonesoftware
-SafeZoneSoftware
 SafeZoneSoftware is a RESTful API backend built with ASP.NET Core Web API and MongoDB. It is a secure and efficient solution for managing safe zones. SafeZoneSoftware enables you to create and manage safe zones for people and businesses, track the location of your clients and employees, and monitor their activities.
 
 Getting Started
