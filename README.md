@@ -4,12 +4,6 @@ SafeZoneSoftware is a RESTful API backend built with ASP.NET Core Web API and Mo
 Getting Started
 To get started with SafeZoneSoftware, you will need to have .NET Core and MongoDB installed on your system. After that, you can clone this repository, navigate to the project directory and run the following commands:
 
-arduino
-Copy code
-dotnet restore
-dotnet run
-This will start the API and allow you to interact with it via your preferred REST client.
-
 API Documentation
 The API endpoints and their usage are documented in the API Documentation file. Please refer to this document for detailed information on how to use the API.
 
