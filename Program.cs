@@ -19,7 +19,7 @@ string connectionString = "mongodb+srv://safezonesoftware:Admin1234@cluster0.7mh
 //var connectionString = Environment.GetEnvironmentVariable("MONGODB_URI");
 if (connectionString == null)
 {
-    Console.WriteLine("You must set your 'MONGODB_URI' environmental variable. See\n\t https://www.mongodb.com/docs/drivers/go/current/usage-examples/#environment-variable");
+    Console.WriteLine("Error can't connect to database");
     Environment.Exit(0);
 }
 else
@@ -27,11 +27,17 @@ else
     Console.WriteLine("Connected");
    //Environment.Exit(0);
 }
-var client = new MongoClient(connectionString);
-var collection = client.GetDatabase("sample_mflix").GetCollection<BsonDocument>("movies");
-var filter = Builders<BsonDocument>.Filter.Eq("title", "Back to the Future");
-var document = collection.Find(filter).First();
-Console.WriteLine(document);
+//var client = new MongoClient(connectionString);
+//var collection = client.GetDatabase("db_safezonesoftware").GetCollection<BsonDocument>("users");
+
+//find specific
+//var filter = Builders<BsonDocument>.Filter.Eq("firstname", "Emmanuel");
+//var document = collection.Find(filter).First();
+
+//get all
+//var filter = Builders<BsonDocument>.Filter.Eq("password", "Admin1234");
+//var document = collection.Find(filter).First;
+//Console.WriteLine(document);
 
 
 var app = builder.Build();
@@ -42,7 +48,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 
 
 app.UseHttpsRedirection();
