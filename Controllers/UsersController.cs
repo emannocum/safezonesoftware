@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using safezonesoftware_restapi.Models;
+
 namespace safezonesoftware_restapi.Controllers
 {
     //[Route("api/[controller]")]

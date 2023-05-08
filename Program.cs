@@ -1,3 +1,5 @@
+
+global using safezonesoftware_restapi.Models;
 using MongoDB.Driver;
 using MongoDB.Bson;
 
