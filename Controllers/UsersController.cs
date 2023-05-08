@@ -56,8 +56,24 @@ namespace safezonesoftware_restapi.Controllers
             }
             else
             {
+                //it will update firstname and lastname properties
                 user.Firstname = request.Firstname;
                 user.Lastname = request.Lastname;
+            }
+            return Ok(users);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<List<Users>>> DeleteUser(int id)
+        {
+            var user = users.Find(data => data.Id == id);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            else
+            {
+               users.Remove(user);
             }
             return Ok(users);
         }
