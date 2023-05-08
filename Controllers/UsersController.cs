@@ -45,5 +45,22 @@ namespace safezonesoftware_restapi.Controllers
             users.Add(user);
             return Ok(users);
         }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<List<Users>>> UpdateUser(int id, [FromBody] Users request)
+        {
+            var user = users.Find(data => data.Id == id);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+            else
+            {
+                user.Firstname = request.Firstname;
+                user.Lastname = request.Lastname;
+            }
+            return Ok(users);
+        }
+
     }
 }
