@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kDQKHqklTAc6djMPXmcemc+fCuSAZafmdK4m/q4uh1pZGryY9VYGpa01sMQ4Fa+iGYhO8ui8n+3FdicOzX3PXQ==",
+  "dgSpecHash": "fIg9DyRtybjNZI2xTvJewb5W4REOC4D+I/qL5+wu3dOsc33KtOyqZsrvIjYkGk83Cm5QroDemypE2VK0fn764A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Emmanuel\\Desktop\\safezonesoftware-restapi\\safezonesoftware-restapi.csproj",
   "expectedPackageFiles": [
@@ -19,10 +19,10 @@
     "C:\\Users\\Emmanuel\\.nuget\\packages\\mongodb.libmongocrypt\\1.7.0\\mongodb.libmongocrypt.1.7.0.nupkg.sha512",
     "C:\\Users\\Emmanuel\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\Emmanuel\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
-    "C:\\Users\\Emmanuel\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\Emmanuel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\Emmanuel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\Emmanuel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\Emmanuel\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Emmanuel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Emmanuel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Emmanuel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\Emmanuel\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Emmanuel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\Emmanuel\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
