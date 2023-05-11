@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using safezonesoftware_restapi.Services;
 using safezonesoftware_restapi.Models;
+using MongoDB.Bson;
 
 namespace safezonesoftware_restapi.Controllers
 {
@@ -32,12 +33,13 @@ namespace safezonesoftware_restapi.Controllers
             return CreatedAtAction(nameof(GetUser), new { id = user.Id} , user); 
        }
 
-        //[HttpPut("{id}")]
+        [HttpPut("{id}")]
 
-        //public async Task<IActionResult> SetUser(string id, [FromBody] string user)
-        //{
-
-        //}
+        public async Task<IActionResult> SetUser(string id, [FromBody] string user)
+        {
+            await _mongoDBService.UpdateAsync(id, user);
+            return Ok();
+        }
 
         //[HttpDelete("{id}")]
         //public async Task<IActionResult> DeleteUser(string id)

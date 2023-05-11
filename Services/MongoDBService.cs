@@ -46,6 +46,13 @@ namespace safezonesoftware_restapi.Services
             }
         }
 
+        public async Task UpdateAsync(string id, string users)
+        {
+            FilterDefinition<User> filterDefinition = Builders<User>.Filter.Eq("Id", id);
+            UpdateDefinition<User> updateDefinition = Builders<User>.Update.AddToSet<string>(id, users);
+            await _usersCollection.UpdateOneAsync(filterDefinition, updateDefinition);
+            return;
+        }
         
     }
 }
